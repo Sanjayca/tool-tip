@@ -1,0 +1,60 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grp-name {
+  margin-top: 20px;
+  font-style: cursive;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.btn {
+  height: 60px;
+  width: 120px;
+  font-size: 2.5rem;
+  border: none;
+}
+
+#button-container {
+  margin-top: 2rem;
+  
+}
+
+.hover-btn {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  border: none;
+  border-bottom: 3px dotted;
+}
+
+/* Styling for the right position hover */
+.right {
+  height: 50%;
+  width: 50%;
+  margin-top: -19%;
+  margin-left: 120%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+}
+
+/* Tooltip position for right side */
+.tooltip-right {
+  top: 50%;
+  left: 100%;
+  transform: translate(-100%, -50%);
+}
+
+/* Styling for the active button */
+.active {
+  background-color: white;
+}
